@@ -7,8 +7,10 @@
   <view class="usermotto">
     <text class="user-motto">{{motto}}</text>
   </view>
+  <view>
+  <navigator url="/pages/map/map" hover-class="navigator-hover">跳转到新页面</navigator>
+  </view>
   <switch style="display: block;"> </switch>
-
   <view id="outer" bindtap="handleTap1">
   outer view
   <view id="middle" bind:touchstart="handleTap2">
